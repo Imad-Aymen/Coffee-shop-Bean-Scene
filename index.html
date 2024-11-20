@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="output.css" />
+    <link
+    rel="shortcut icon"
+    href="../Picture/a.png"
+    type="image/x-icon"
+  />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bean Scene</title>
+  </head>
+  <body class="">
+    <header class="bg-fixed bg-center bg-cover image h-screen">
+      <nav
+        class="lg:flex lg:justify-between lg:flex-row p-3 lg:container lg:mx-auto"
+      >
+        <div class="flex justify-between">
+          <h3 class="font-Clicker font-normal pt-2 text-3xl text-white p-3">
+            Bean Scene
+          </h3>
+          <button class="lg:hidden" id="btn">
+            <img src="../Picture/bars.png" alt="" class="w-10 h-10 lg:hidden" />
+          </button>
+        </div>
+
+        <ul
+          class="hidden list-none font-Playfair font-light lg:ml-32 text-[15px] text-white lg:flex lg:items-center lg:justify-center"
+        >
+          <li
+            class="mr-9 transition ease-linear delay-0 duration-1000 hover:border-b-2 hover:border-yellow-300 hover:font-bold hover:translate-y-2 hover:text-center"
+          >
+            Home
+          </li>
+          <li
+            class="mr-9 transition ease-linear delay-0 duration-1000 hover:border-b-2 hover:border-yellow-300 hover:font-bold hover:translate-y-2 hover:text-center"
+          >
+            Menu
+          </li>
+          <li
+            class="mr-9 transition ease-linear delay-0 duration-1000 hover:border-b-2 hover:border-yellow-300 hover:font-bold hover:translate-y-2 hover:text-center"
+          >
+            About Us
+          </li>
+          <li
+            class="mr-9 transition ease-linear delay-0 duration-1000 hover:border-b-2 hover:border-yellow-300 hover:font-bold hover:translate-y-2 hover:text-center"
+          >
+            Contact Us
+          </li>
+        </ul>
+        <div class="hidden lg:flex lg:flex-row items-center">
+          <button
+            type="button"
+            class="pb-2 mx-2 px-4 w-[100px] text-[12px] font-thin hover:px-5 hover:py-2 rounded-full hover:border-0 text-white hover:text-[17px] hover:bg-yellow-400 transition ease-linear delay-0 duration-1000 hover:rounded-full"
+          >
+            Sing In
+          </button>
+          <button
+            type="button"
+            class="rounded-full mx-3 px-5 py-2 w-[100px] bg-yellow-400 text-[17px] font-light text-white hover:bg-transparent transition ease-linear delay-0 duration-1000 hover:rounded-full"
+          >
+            Sing Up
+          </button>
+        </div>
+        <div id="list-m" class="hidden">
+          <ul
+            class="lg:hidden container my-2 p-3 list-none font-Playfair font-light text-[15px] text-white"
+          >
+            <li
+              class="transition ease-linear delay-0 duration-1000 my-2 hover:border-b-2 hover:border-yellow-300 hover:font-bold w-1/6 hover:text-center"
+            >
+              Home
+            </li>
+            <li
+              class="transition ease-linear delay-0 duration-1000 my-2 hover:border-b-2 hover:border-yellow-300 hover:font-bold w-1/6 hover:text-center"
+            >
+              Menu
+            </li>
+            <li
+              class="transition ease-linear delay-0 duration-1000 my-2 hover:border-b-2 hover:border-yellow-300 hover:font-bold w-1/6 hover:text-center"
+            >
+              About Us
+            </li>
+            <li
+              class="transition ease-linear delay-0 duration-1000 my-2 hover:border-b-2 hover:border-yellow-300 hover:font-bold w-1/6 hover:text-center"
+            >
+              Contact Us
+            </li>
+          </ul>
+          <button
+            type="button"
+            class="transition ease-linear delay-0 duration-1000 lg:hidden hover:bg-yellow-400 hover:font-bold block text-white px-3 py-2 text-center my-2 border-2 rounded-full border-yellow-300"
+          >
+            Sing In
+          </button>
+          <button
+            type="button"
+            class="transition ease-linear delay-0 duration-1000 lg:hidden block hover:bg-yellow-400 hover:font-bold text-white px-3 py-2 text-center my-2 border-2 rounded-full border-yellow-300"
+          >
+            Sing Up
+          </button>
+        </div>
+      </nav>
+      <section class="container mx-auto">
+        <div class="p-3 mt-9">
+          <h3 class="font-Playfair text-white text-2xl">
+            We've got your morning covered with
+          </h3>
+          <h1 class="font-Clicker text-white lg:text-[200px] text-[100px]">
+            Coffee
+          </h1>
+          <p
+            class="text-gray-200 text-[50px] font-Playfair text-lg lg:w-[500px]"
+          >
+            It is best start your day with a cup of coffe. Discover the best
+            flavours coffee you will everhave. We provide the best for our
+          </p>
+          <button
+            type="button"
+            class="animate-bounce transition ease-linear text-2xl delay-0 duration-1000 block hover:bg-yellow-400 hover:font-bold text-white px-2 py-4 text-center my-8 border-b-4 border-yellow-400 hover:border"
+          >
+            Order Now
+          </button>
+        </div>
+      </section>
+    </header>
+    <!-- part 2 -->
+    <section class="container mx-auto p-3 bg-white">
+      <div class="flex justify-between mt-14">
+        <div>
+          <h2 class="font-Playfair text-5xl text-amber-900 my-8">
+            Discover the best coffee
+          </h2>
+          <p class="font-Playfair text-gray-400 text-xl">
+            Bean Scene is a coffee shop that provides you with high-quality
+            coffee that helps increase your productivity and helps improve your
+            mood. Having a cup of coffee is good, but having a cup of real
+            coffee is even greater. There is no doubt that you will enjoy this
+            coffee more than any other coffee you have ever tasted.
+          </p>
+          <button
+            type="button"
+            class="border-2 border-yellow-400 rounded-2xl p-3 m-3 hover:bg-yellow-400"
+          >
+            Order Now
+          </button>
+        </div>
+        <img
+          src="../Picture/Mask group.png"
+          alt=""
+          class="w-1/4 hidden lg:block"
+        />
+      </div>
+    </section>
+    <!-- pictuer -->
+    <img
+      src="../Picture/coffee_blast.png"
+      alt=""
+      class="-mt-[50px] w-[400px]"
+    />
+    <section class="container mx-auto">
+      <div class="text-center -mt-10">
+        <h3 class="font-Playfair text-5xl text-amber-900 my-8">
+          Enjoy a new blend of coffee style
+        </h3>
+        <p class="font-Playfair text-gray-400">
+          Explore all flavours of coffee with us. There is always a new cup
+          worth experiencing
+        </p>
+      </div>
+      <!-- card  -->
+      <div class="grid grid-cols-12 my-4 gap-3">
+        <div
+          class="bg-[#f9c06a1f] text-center lg:col-span-3 col-span-12 md:col-span-6"
+        >
+          <img src="../Picture/Rectangle 7.png" alt="" class="w-full" />
+          <h5 class="font-Playfair font-bold p-2 text-amber-900 text-xl">
+            Cappuccino
+          </h5>
+          <p class="font-Playfair font-bold text-gray-400">
+            Coffee 50% | Milk 50%
+          </p>
+          <p class="font-Playfair font-bold p-2 text-amber-900">$8.50</p>
+          <button
+            type="button"
+            class="mx-auto transition ease-linear delay-0 duration-1000 block hover:bg-yellow-300 hover:font-bold text-amber-900 px-3 py-2 text-center my-2 border-2 rounded-full border-yellow-300"
+          >
+            Order Now
+          </button>
+        </div>
+        <div
+          class="bg-[#f9c06a1f] text-center lg:col-span-3 col-span-12 md:col-span-6"
+        >
+          <img src="../Picture/Rectangle 9.png" alt="" class="w-full" />
+          <h5 class="font-Playfair font-bold p-2 text-amber-900 text-xl">
+            Chai latte
+          </h5>
+          <p class="font-Playfair font-bold text-gray-400">
+            Coffee 50% | Milk 50%
+          </p>
+          <p class="font-Playfair font-bold p-2 text-amber-900">$8.50</p>
+          <button
+            type="button"
+            class="mx-auto transition ease-linear delay-0 duration-1000 block hover:bg-yellow-300 hover:font-bold text-amber-900 px-3 py-2 text-center my-2 border-2 rounded-full border-yellow-300"
+          >
+            Order Now
+          </button>
+        </div>
+        <div
+          class="bg-[#f9c06a1f] text-center lg:col-span-3 col-span-12 md:col-span-6"
+        >
+          <img src="../Picture/Rectangle 11.png" alt="" class="w-full" />
+          <h5 class="font-Playfair font-bold p-2 text-amber-900 text-xl">
+            Macchiato
+          </h5>
+          <p class="font-Playfair font-bold text-gray-400">
+            Coffee 50% | Milk 50%
+          </p>
+          <p class="font-Playfair font-bold p-2 text-amber-900">$8.50</p>
+          <button
+            type="button"
+            class="mx-auto transition ease-linear delay-0 duration-1000 block hover:bg-yellow-300 hover:font-bold text-amber-900 px-3 py-2 text-center my-2 border-2 rounded-full border-yellow-300"
+          >
+            Order Now
+          </button>
+        </div>
+        <div
+          class="bg-[#f9c06a1f] text-center lg:col-span-3 col-span-12 md:col-span-6"
+        >
+          <img src="../Picture/Rectangle 13.png" alt="" class="w-full" />
+          <h5 class="font-Playfair font-bold p-2 text-amber-900 text-xl">
+            Expresso
+          </h5>
+          <p class="font-Playfair font-bold text-gray-400">
+            Coffee 50% | Milk 50%
+          </p>
+          <p class="font-Playfair font-bold p-2 text-amber-900">$8.50</p>
+          <button
+            type="button"
+            class="mx-auto transition ease-linear delay-0 duration-1000 block hover:bg-yellow-300 hover:font-bold text-amber-900 px-3 py-2 text-center my-2 border-2 rounded-full border-yellow-300"
+          >
+            Order Now
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- pictuer -->
+    <div class="sm:flex sm:justify-end">
+      <img
+        src="../Picture/coffee_blast-1.png"
+        alt=""
+        class="-mt-[50px] w-[400px]"
+      />
+    </div>
+    <!-- start  -->
+    <section class="container mx-auto">
+      <div class="text-center scroll sm:-mt-52">
+        <h3 class="font-Playfair text-5xl text-amber-900 my-8">
+          Why are we different?
+        </h3>
+        <p class="font-Playfair text-gray-400">
+          We don’t just make your coffee, we make your day!
+        </p>
+      </div>
+      <div class="grid grid-cols-12 my-10 gap-3">
+        <div
+          class="bg-[#FFEED8] text-center lg:col-span-3 col-span-12 md:col-span-6 p-11 "
+        >
+          <img src="../Picture/coffee-beans 1.png" alt="" class="mx-auto mt-8 animate-bounce " />
+          <h5 class="font-Playfair font-bold p-2 text-amber-900 text-xl">
+            Supreme Beans
+          </h5>
+          <p class="font-Playfair font-bold text-gray-400">
+            Beans that provides great taste
+          </p>
+        </div>
+        <div
+          class="bg-[#FFEED8] text-center lg:col-span-3 col-span-12 md:col-span-6 p-11"
+        >
+          <img src="../Picture/badge 1.png" alt="" class="mx-auto mt-8 animate-bounce" />
+          <h5 class="font-Playfair font-bold p-2 text-amber-900 text-xl">
+            High Quality
+          </h5>
+          <p class="font-Playfair font-bold text-gray-400">
+            We provide the highest quality
+
+          </p>
+        </div>
+        <div
+          class="bg-[#FFEED8] text-center lg:col-span-3 col-span-12 md:col-span-6 p-11"
+        >
+          <img src="../Picture/coffee-cup 1.png" alt="" class="mx-auto mt-8 animate-bounce" />
+          <h5 class="font-Playfair font-bold p-2 text-amber-900 text-xl">
+            Extraordinary 
+          </h5>
+          <p class="font-Playfair font-bold text-gray-400">
+            Coffee like you have
+            never tasted
+          </p>
+        </div>
+        <div
+          class="bg-[#FFEED8] text-center lg:col-span-3 col-span-12 md:col-span-6 p-11"
+        >
+          <img src="../Picture/best-price 1.png" alt="" class="mx-auto mt-8 animate-bounce" />
+          <h5 class="font-Playfair font-bold p-2 text-amber-900 text-xl">
+            Affordable Price
+          </h5>
+          <p class="font-Playfair font-bold text-gray-400">
+            Our Coffee prices are easy to afford
+          </p>
+        </div>
+        </div>
+      </div>
+    </section>
+<!-- end -->
+<!-- start -->
+<section class="">
+      <div class="text-center mb-20 ">
+        <p class="font-Playfair text-gray-400">
+          Great ideas start with great coffee, Lets help you achieve that  
+        </p>
+        <h3 class="font-Playfair text-3xl text-amber-900 ">
+          Get started today.
+        </h3>
+        <button
+            type="button"
+            class="mx-auto transition ease-linear delay-0 duration-1000 block bg-yellow-300 hover:font-bold text-amber-900 px-5 py-2 text-center my-2 border-2 rounded-full border-yellow-300"
+          >
+            Join Us
+          </button>
+      </div>
+      <div class="bg-[url('../Picture/ff.png')]  bg-fixed bg-center bg-cover flex justify-between items-end  ">
+        <div class="flex flex-col items-center p-20">
+          <h1 class="text-white font-Playfair text-4xl mb-5">Get a chance to have an
+            Amazing morning</h1>
+            <p class="text-white font-Playfair mb-5">We are giving you are one time opportunity to
+              experience a better life with coffee.</p>
+              <button
+              type="button"
+              class="mx-auto transition ease-linear delay-0 duration-1000 block bg-yellow-300 hover:font-bold text-amber-900 px-5 py-2 text-center my-2 border-2 rounded-full border-yellow-300"
+            >
+              Join Us
+            </button>
+        </div>
+        <img src="../Picture/cup.png" alt="" class="animate-pulse h-[400px] relative left-[250px] hidden lg:block">
+        <img src="../Picture/coffee_bean.png" alt="" class="h-[400px] hidden lg:block"  >
+        
+      </div>
+    </section >
+    <!-- end -->
+     <section class="container mx-auto">
+      <div class="text-center mt-10  ">
+        <h1 class="font-Playfair sm:text-5xl text-2xl text-amber-900 font-bold">
+          Our coffee perfection feedback
+        </h1>
+        <p class="font-Playfair text-gray-400 sm:mt-6 sm:text-xl">
+        our customers has amazing things to say about us
+        </p>
+      </div>
+      <div class="sm:flex h sm:justify-end hidden -mt-7">
+        <img
+          src="../Picture/coffee_blast-1.png"
+          alt=""
+          class=" -mt-[150px] w-[500px] "
+        />
+      </div> 
+      <div class="w-[75%]  bg-[#ffeed8de] sm:-mt-[150px] border-2 mx-auto " >
+          <img src="../Picture/inverted-commas.png" alt="" class="sm:w-[150px] w-[90px] sm:p-10  p-4 ">
+          <p class="font-Playfair text-xl text-center sm:px-20 mt-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto quae facilis
+          voluptates odio neque omnis illum officia aliquam assumenda.
+          Error, odit nemo ipsum fugit veniam assumenda similique obcaecati modi impedit.
+          voluptates odio neque omnis illum officia aliquam assumenda.
+          Error, odit nemo ipsum fugit veniam assumenda similique obcaecati modi impedit.
+          voluptates odio neque omnis illum officia aliquam assumenda.
+          Error, odit nemo ipsum fugit veniam assumenda similique obcaecati modi impedit.
+          </p>
+          <h1 class="font-Playfair font-bold text-2xl text-center p-5">Jonny Thomas</h1>
+          <h5 class="font-Playfair text-center -mt-5  ">project Manager</h5>
+          <img src="../Picture/a2.png" alt="" class="bg-gray-900 w-40 rounded-full mx-auto  relative top-[80px]">
+      </div>
+      
+     </section>
+     <!-- picture -->
+        <img
+          src="../Picture/coffee_blast.png"
+          alt=""
+          class=" w-[500px] sm:rotate-[-40deg] sm:-mt-[250px] sm:-ml-[100px]  "
+        />
+        <!-- start -->
+        <div class="bg-[url('../Picture/ff.png')]">
+         <div class="sm:p-10  p-2 flex flex-col items-center">
+         <h1 class="font-Playfair text-white font-black text-2xl sm:text-5xl mb-5"> Subscribe to get the Latest News</h1>
+         <p class="font-Playfair text-gray-200 sm:text-2xl mb-10 ">Dont' miss out latest news, updates, tips and special offers</p>
+         <div class=" mb-4 flex sm:w-full sm:flex-wrap  sm:justify-center">
+          <input
+            type="text"
+            class=" m-0 -me-px  sm:w-[50%] sm:h-14 rounded-s  border-solid border-2  p-3  outline-none transition duration-200 ease-in-out placeholder:text-neutral-500 focus:z-[3] focus:border-primary focus:shadow-inset focus:outline-none motion-reduce:transition-none dark:border-white/10 "
+            placeholder="Enter Your Email"
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2" />
+          <button
+            class="z-[2] inline-block  rounded-e border-2 border-primary-100 px-6 pb-[6px] pt-2 sm:text-xl font-bold font-Playfair uppercase leading-normal  transition duration-150 ease-in-out hover:border-primary-accent-200  focus:border-primary-accent-200 hover:bg-yellow-300    "
+            data-twe-ripple-init
+            type="button"
+            id="button-addon2">
+            Subscribe
+          </button>
+          </div>
+        </div>
+        <div class="sm:flex  sm:justify-between hidden -mt-[90px]">
+          <img src="../Picture/pngwing 1.png" alt="" class="  z-10 ">
+          <img src="../Picture/pngwing 2.png" alt="" class="   z-10">
+        </div>
+        <div class="bg-[#473012]  sm:-mt-[100px]">
+          <div class=" container mx-auto sm:p-24 sm:flex text-center lg:justify-between text-white">
+          <div class=" mr-2 sm:w-52">
+            <h3 class="font-Clicker font-normal  pt-2 text-2xl lg:text-5xl text-white p-3">
+              Bean Scene
+            </h3>
+            <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Tempore soluta debitis id delectus. Repellat rem aut labore tenetur sint possimus!
+            </p>
+            <div class="flex m-5 justify-center cursor-pointer ">
+              <a
+              href="#!"
+              class="mr-6  text-neutral-600  dark:text-neutral-200"
+                        >
+              <svg 
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path class="" d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+              </svg>
+                        </a>
+                        <a
+                        href="#!"
+                        class="mr-6 text-neutral-600 dark:text-neutral-200"
+                      >
+                        <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4"
+              fill="currentColor"
+              viewBox="0 0 512 512"
+                        >
+              <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                        </svg>
+                      </a>
+                      <a
+                        href="#!"
+                        class="mr-6 text-neutral-600 dark:text-neutral-200"
+                      >
+                        <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="currentColor"
+              viewBox="0 0 576 512"
+                        >
+              <path
+                d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+                fillRule="evenodd"
+                clipRule="evenodd"
+              />
+                        </svg>
+                      </a>
+                      <a
+                        href="#!"
+                        class="mr-6 text-neutral-600 dark:text-neutral-200"
+                      >
+                        <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+                        >
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                      </a>
+            </div>
+          </div>
+          <div class=" mr-2">
+            <h3 class="font-Playfair font-normal  pt-2 text-3xl lg:text-5xl text-white p-3">
+              About
+            </h3>
+            <h3 class="font-Playfair">Menu</h3>
+            <h3 class="font-Playfair">Features</h3>
+            <h3 class="font-Playfair">News Blogs</h3>
+            <h3 class="font-Playfair">Help Supports</h3>
+          </div>
+          <div class="mr-2">
+            <h3 class="font-Playfair font-normal  pt-2 text-3xl lg:text-5xl text-white p-3">
+              Company
+            </h3>
+            <h3 class="font-Playfair">How we work</h3>
+            <h3 class="font-Playfair">Terms of service</h3>
+            <h3 class="font-Playfair">Pricing</h3>
+            <h3 class="font-Playfair">FAQ</h3>
+            
+          </div>
+          <div class=" mr-2">
+            <h3 class="font-Playfair font-normal  pt-2 text-3xl lg:text-5xl text-white p-3">
+              Contact Us
+            </h3>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <h3 class="font-Playfair">+213 000-000-000</h3>
+            <h3 class="font-Playfair">beanscene@mail.com</h3>
+            <h3 class="font-Playfair">www.hex-aymen.com</h3>
+          </div>
+          </div>
+          <img src="../Picture/fotter_image.png" alt="" class="-mt-[400px] h-screen">
+        </div>
+        </div>
+    <script>
+      const btn = document.getElementById("btn");
+      const list = document.getElementById("list-m");
+      btn.addEventListener("click", () => {
+        list.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
